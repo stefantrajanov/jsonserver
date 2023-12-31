@@ -1,11 +1,23 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
+    "city": "Beograd",
+    "country": "Srbija",
+    "details": "stores",
+    "count": "11",
+    "images": [
+        {
+            "image": "http://www.ikea.com/ms/sr_RS/img/ikea_stores/ikea_belgrade.jpg",
+            "alt": "IKEA Beograd"
+        }
+    ],
+    "objects": {
+        "avialiablity": "all",
+        "active": "5",
+        "stores": [{
+            "storeName": "Beko",
+            "region": "Dedinje",
+            "address": "Bulevar kneza Aleksandra Karađorđevića 92",
+            "openHours": "07:00-19:00",
+            "phone": "011/266-0-266"
+        }]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
